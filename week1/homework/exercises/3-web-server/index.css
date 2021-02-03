@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(233, 225, 225);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.red {
+  color: red;
+  font-size: 20px;
+}
+#add {
+  display: flex;
+  flex-wrap: wrap;
+}
+#click {
+  position: relative;
+  margin: auto;
+  color: green;
+}
+.container {
+  width: 75px;
+  background-color: rgb(240, 234, 234);
+  margin: 5px;
+  color: rgb(12, 12, 12);
+  border: 2px rgb(209, 106, 106) solid;
+}

@@ -1,14 +1,10 @@
-/**
- * Exercise 3: Create an HTTP web server
- */
+/* i divide the server functions into two files one for the server code and the function of sending response in the files module and i add js file and some css and html :) */ 
+const http = require("http");
+const routing = require("./files");
+const server = http.createServer(routing);
 
-var http = require('http');
-
-//create a server
-let server = http.createServer(function (req, res) {
-  // YOUR CODE GOES IN HERE
-	res.write('Hello World!'); // Sends a response back to the client
-	res.end(); // Ends the response
+server.listen(3000,()=>{
+  console.log(`server is running....`)
 });
 
-server.listen(3000); // The server starts to listen on port 3000
+
