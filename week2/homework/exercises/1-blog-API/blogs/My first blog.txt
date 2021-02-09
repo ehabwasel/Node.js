@@ -1,0 +1,2 @@
+title:My first blog 
+ content:Lorem ipsum
